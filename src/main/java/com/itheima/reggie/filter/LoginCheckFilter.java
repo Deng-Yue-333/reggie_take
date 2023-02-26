@@ -38,6 +38,7 @@ public class LoginCheckFilter implements Filter{
                 "/front/**"
         };
 
+
         //2、判断本次请求是否需要处理
         boolean check = check(urls, requestURI);
 

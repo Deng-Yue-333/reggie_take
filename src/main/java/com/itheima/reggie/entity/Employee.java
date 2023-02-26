@@ -6,6 +6,9 @@ import lombok.Data;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
+/**
+ * 员工实体
+ */
 @Data
 public class Employee implements Serializable {
 
@@ -23,7 +26,7 @@ public class Employee implements Serializable {
 
     private String sex;
 
-    private String idNumber;
+    private String idNumber;//身份证号码
 
     private Integer status;
 
